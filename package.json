@@ -1,0 +1,38 @@
+{
+  "name": "koa-starter",
+  "version": "1.0.0",
+  "description": "A koa server with basic auth.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node start",
+    "supervisor": "supervisor start",
+    "test": "mocha"
+  },
+  "author": "Xinsong Yang <yangxinsong93@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.17.1",
+    "bcrypt": "1.0.3",
+    "dotenv": "4.0.0",
+    "ejs": "2.5.7",
+    "koa": "2.3.0",
+    "koa-bodyparser": "4.2.0",
+    "koa-logger": "3.1.0",
+    "koa-passport": "4.0.1",
+    "koa-router": "7.2.1",
+    "koa-send": "4.1.1",
+    "koa-session": "5.5.1",
+    "koa-static": "4.0.1",
+    "koa-views": "6.1.1",
+    "mime": "2.0.3",
+    "mongodb": "3.0.0-rc0",
+    "mongoose": "4.13.7",
+    "mysql2": "1.5.1",
+    "mz": "2.7.0",
+    "validatorjs": "3.13.5"
+  },
+  "devDependencies": {
+    "mocha": "4.1.0",
+    "supertest": "3.0.0"
+  }
+}
